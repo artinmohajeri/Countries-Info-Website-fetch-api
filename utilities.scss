@@ -1,0 +1,9 @@
+$background: #3d64e6;
+$search-font-size : 16px;
+
+
+@mixin flex-center{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

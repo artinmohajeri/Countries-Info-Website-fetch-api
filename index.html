@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries api</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="" class="search-wrapper">
+            <input type="text" name="text" id="search-input" placeholder="enter a country name...">
+            <button type="submit" id="search-btn">search</button>
+        </form>
+        <section class="info", id="info">
+            <div class="image-box" id="image-box">
+                <img id="flag" src="" alt="">
+            </div>
+            <h1 id="country-name"></h1>
+                <ul class="details" id="details">
+                    <li><span id="capital-title" class="details-title">Capital:</span>   <span id="capital-value" class="value details-value"></span></li>
+                    <li><span id="continent-title" class="details-title">Continent:</span>   <span id="continent-value" class="value details-value"></span></li>
+                    <li><span id="reigon-title" class="details-title">Region:</span>   <span id="reigon-value" class="value details-value"></span></li>
+                    <li><span id="language-title" class="details-title">Language:</span>   <span id="language-value" class="value details-value"></span></li>
+                    <li><span id="population-title" class="details-title">Populations:</span>   <span id="populations-value" class="value details-value"></span></li>
+                    <li><span id="currency-title" class="details-title">Currency:</span>   <span id="currency-value" class="value details-value"></span></li>
+                </ul>
+        </section>
+
+    </div>
+
+    <script src="./main.js"></script>
+</body>
+</html>
+
